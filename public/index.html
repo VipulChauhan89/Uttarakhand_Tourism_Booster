@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Uttarakhand Tourism Booster</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Paytone+One&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+	<!--header--->
+	<header>
+		<a href="#" class="logo">Uttarakhand</a>
+		<div class="bx bx-menu" id="menu-icon"></div>
+
+		<ul class="navbar">
+			<li><a href="#home">Home</a></li>
+            <li><a href="#tourism">Tourism</a></li>
+			<li><a href="#adventure">Adventure</a></li>
+            <li><a href="#story">Story</a></li>
+			<li><a href="#contact">Contact Us</a></li>
+		</ul>
+	</header>
+
+	<!--Home section--->
+	<section class="home" id="home">
+		<div class="home-text">
+			<h1 style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; color:azure; text-shadow:2px 2px 8px black;">देवभूमि &nbsp;उत्तराखंड</h1>
+			<p>मेरी जन्मभूमि मेरो पहाड़।</p>
+			<a href="https://rzp.io/l/5p36jvJvpd" class="home-btn">Help Dev Bhoomi</a>
+		</div>
+	</section>
+
+	<!--container--->
+	<section class="container">
+		<div class="text">
+			<h2>Welcome to Uttarakhand.</h2>
+		</div>
+
+		<div class="row-items">
+			<div class="container-box">
+				<a href="food.html">
+					<div class="container-img">
+						<img src="img/food.gif">
+					</div>
+					<h4>Our Food</h4>
+					<p>Taste of Dev bhoomi</p>
+				</a>
+			</div>
+
+			<div class="container-box">
+				<a href="infantary.html">
+					<div class="container-img">
+						<img src="img/trip4.png">
+					</div>
+					<h4>Infantary</h4>
+					<p>A Regiment & 2 Rifles</p>
+				</a>
+			</div>
+
+			<div class="container-box">
+				<a href="history.html">
+					<div class="container-img">
+						<img src="img/trip3.gif">
+					</div>
+					<h4>History</h4>
+					<p>of our people</p>
+				</a>
+			</div>
+		</div>
+	</section>
+
+	<!--Tourism section--->
+	<section class="package" id="tourism">
+		<div class="title">
+			<h2>Our Tourism</h2>
+		</div>
+
+		<div class="destination-content">
+            <a href="#dehradun"><div class="col-content" onclick="district(1)">
+				<img src="img/Dehradun.jpg">
+				<h5>Dehradun</h5>
+			</div></a>
+            <a href="#haridwar"><div class="col-content" onclick="district(2)">
+				<img src="img/haridwar.jpg">
+				<h5>Haridwar</h5>
+			</div></a>
+            <a href="#rudraprayag"><div class="col-content" onclick="district(3)">
+				<img src="img/rudraprayag 2.jpg">
+				<h5>Rudraprayag</h5>
+			</div></a>
+            <a href="#almora"><div class="col-content" onclick="district(4)">
+				<img src="img/almora 2.jpg">
+				<h5>Almora</h5>
+			</div></a>
+            <a href="#nanital"><div class="col-content" onclick="district(5)">
+				<img src="img/nanital.jpg">
+				<h5>Nanital</h5>
+			</div></a>
+            <a href="#pithoragarh"><div class="col-content" onclick="district(6)">
+				<img src="img/pithoragarh.jpg">
+				<h5>Pithoragarh</h5>
+			</div></a>
+            <a href="#champawat"><div class="col-content" onclick="district(7)">
+				<img src="img/champawat.jpg">
+				<h5>Champawat</h5>
+			</div></a>
+            <a href="#tehri"><div class="col-content" onclick="district(8)">
+				<img src="img/tehri.jpg">
+				<h5>Tehri</h5>
+			</div></a>
+            <a href="#pauri"><div class="col-content" onclick="district(9)">
+				<img src="img/pauri.jpg">
+				<h5>Pauri</h5>
+			</div></a>
+            <a href="#uttarkashi"><div class="col-content" onclick="district(10)">
+				<img src="img/uttarkashi.jpg">
+				<h5>Uttarkashi</h5>
+			</div></a>
+            <a href="#udhamsinghnagar"><div class="col-content" onclick="district(11)">
+				<img src="img/udham singh nagar.jpg">
+				<h5>Udham Sigh Nagar</h5>
+			</div></a>
+            <a href="#bageshwar"><div class="col-content" onclick="district(12)">
+				<img src="img/bageshwar.jpg">
+				<h5>Bageshwar</h5>
+			</div></a>
+            <a href="#chamoli"><div class="col-content" onclick="district(13)">
+				<img src="img/chamoli.jpg">
+				<h5>Chamoli</h5>
+			</div></a>
+		</div>
+	</section>
+
+    <!--Dehradun section--->
+	<section class="destination" id="dehradun" style="display:none;">
+		<div class="title">
+			<h2>Dehradun</h2>
+		</div>
+
+		<div class="destination-content">
+			<div class="col-content">
+				<img src="district/dehradun/clock tower_f.jpg">
+				<h5 >Clock Tower</h5>
+				<p>Clock tower, also known as "ghanta ghar" is a very famous tourist attraction. It was started in the year 1948 and got completed in 1953. The much respected Lal Bahadur Shastri inaugurated the monument. It was a renowned landmark of the city and was built by the British before India got its independence. The clock does not tick at present, but it is said that years ago when it was built, the peak of it was such that a person on the other end of the city could hear it as well.</p>
+			</div>
+            <div class="col-content">
+				<img src="district/dehradun/buddha temple.jpg">
+				<h5 >Buddha Temple</h5>
+				<p>Built-in the later years of the 20th century by the revered Buddhist religious head Kochen Rinpoche, Buddha Temple in Dehradun is a magnificent Tibetan Monastery and is also known as Mindrolling Monastery. It was built not only to safeguard the religious and cultural sentiments of the Buddhists but also to promote the same. The Temple is essentially a built-in Japanese architecture style on a highland in the Doon Valley. The view from the top is simply mesmerizing. If you wish to enjoy complete greenery, you must visit Dehradun Buddhist Temple.</p>
+			</div>
+            <div class="col-content">
+				<img src="district/dehradun/chakrata.jpg">
+				<h5 >Chakrata</h5>
+				<p>Chakrata can be reached from Dehradun via Mussoorie or Vikasnagar passing through kalsi Gate (where Ashoka Stumbh is situated). Both routes pass through beautiful mountainous roads. Travelling in the monsoon can be tricky as the area sees frequent road blockages due to landslides.
+                    The area has an abundance of conifers, rhododendrons and oaks. The red rhododendrons are the most abundantly found in this region.
+                    </p>
+			</div>
+            <div class="col-content">
+				<img src="district/dehradun/Dalai-hills-mussoorie-2.jpg">
+				<h5 >Dalai hills</h5>
+				<p>The Dalai Hills Mussoorie and Happy Valley are two of the most impressive and beautiful places in Mussoorie. It takes about 400 meters walk from the Tibetan temple in Happy Valley to reach Dalai Hills Located just above LBS (lal bahadur academy) with wonderful views of the greater Himalayan range on a clear day. It is decorated with Buddhist prayer flags and has a statue of Lord Buddha there.</p>
+			</div>
+            <div class="col-content">
+				<img src="district/dehradun/fri.jpg">
+				<h5 style="top:10px;">Forest Research Institute</h5>
+				<p>Established as Imperial Forest Research Institute in 1906, the Forest Research Institute (FRI) Dehradun, was first situated at Chandhbagh (the present location of the Doon School) on the Mall Road. A much larger campus at the present location was acquired ca 1923. Construction of the new buildings commenced thereafter. Styled in Greco-Roman Architecture by C.G. Blomfield, the main building was inaugurated in 1929 by then Viceroy Freeman Freeman-Thomas, 1st Marquess of Willingdon. It is now a National Heritage site.</p>
+			</div>
+            <div class="col-content">
+				<img src="district/dehradun/george.jpg">
+				<h5 >George Everest</h5>
+				<p>George Everest Peak takes you to the house of Sir George Everest. Sir George Everest was a Surveyor-General of India from 1830 to 1843 and led a significant part of India’s Great Trigonometrical Survey. He was the one who hired Andrew Waugh and Radhanath Sikdar who made the first-ever observation of Mount Everest and calculated its height.</p>
+			</div>
+            <div class="col-content">
+				<img src="district/dehradun/maldevta.jpg">
+				<h5 >Maldevta</h5>
+				<p>Tucked away in the Raipur area of Dehradun, Maldevta is nature in utmost abundance. From an ancient temple to great Himalayan vistas, this gorgeous place is bliss for nature lovers. The untouched trails of this place will lead you to a quaint hamlet which is nestled in the lap of lush green hills and bordered by meandering River Song. It is one of the top places to visit in Dehradun.</p>
+			</div>
+            <div class="col-content">
+				<img src="district/dehradun/Malsi-Deer-Park.jpg">
+				<h5 >Malsi Dear Park</h5>
+				<p>A miniature zoological park set amongst the ethereal siwalik range of Doon Valley is a major attraction in Dehradun. The place is an ideal gateway from the humdrums of city life and enjoy wildlife in a quaint little Himalayan. One of the chief attractions of Dehradun, this zoological park is located in Mussoorie Road. The place is 10 kilometres from Dehradun (Rajpur Road) and lies in the outskirts of this hill town.</p>
+			</div>
+            <div class="col-content">
+				<img src="district/dehradun/Robber’s-Cave.jpg">
+				<h5 >Robber's Cave</h5>
+				<p>Robber's Cave (locally known as Guchhupani), located near Sahasradhara (thousand fold spring), is a river cave formation in Himalaya, located approximately 8 km from the centre of Dehradun City in Uttarakhand state of India.
+                    The cave is about 600 metres long, and divided into two main parts. The cave has a highest fall of about 10 metres. In the central part there is a fort wall structure which is now broken. It consists of an extremely narrow gorge formed in a conglomerate limestone area on Doon Valley's Dehra plateau.</p>
+			</div>
+		</div>
+	</section>
+    <!--Haridwar section--->
+	<section class="destination" id="haridwar" style="display:none;">
+		<div class="title">
+			<h2>Haridwar</h2>
+		</div>
+
+		<div class="destination-content">
+			<div class="col-content">
+				<img src="district/haridwar/Mansa-Devi-Temple.jpg">
+				<h5 >Mansa Devi Temple</h5>
+				<p>Mansa Devi Temple, Haridwar (Hindi: मंसा देवी मंदिर, हरिद्वार) is a Hindu temple dedicated to goddess Mansa Devi in the holy city of Haridwar in the Uttarakhand state of India. The temple is located atop the Bilwa Parvat on the Sivalik Hills, the southernmost mountain chain of the Himalayas. The temple, also known as Bilwa Tirth is one of the Panch Tirth (Five Pilgrimages) within Haridwar.</p>
+			</div>
+            <div class="col-content">
+				<img src="district/haridwar/shantikunj.jpg">
+				<h5 >Shanti Kunj</h5>
+				<p>Shantikunj was established in 1971 by Shriram Sharma and Bhagwati Devi Sharma on a small piece of land. It was expanded over Gayatri Nagar.
+                    Shantikunj and Dev Sanskriti Vishwavidyalaya functions under the Shri Vedmata Gayatri Trust, headed by Mrs. Shailbala Pandya.
+                    </p>
+			</div>
+            <div class="col-content">
+				<img src="district/haridwar/bara bazaar.jpg">
+				<h5 >Bara Bazaar</h5>
+				<p>For visitors wishing to indulge in shopping for what Haridwar is famous for, Bara Bazar is one of the Tourist places in Haridwar. This colorful Bazar is the main marketplace of the city. The traditional Bazar which meanders through narrow lanes is full of shops selling religious paraphernalia like Rudraksha seeds, to ayurvedic products and medicines to Churans and digestive powders to handcrafted materials and ornaments.</p>
+			</div><div class="col-content">
+				<img src="district/haridwar/Chandi-Devi-Temple.jpg">
+				<h5 >Chandi Devi</h5>
+				<p>Chandi Devi Temple, Haridwar (Hindi: चण्डी देवी मंदिर, हरिद्वार) is a Hindu temple dedicated to Goddess Chandi Devi in the holy city of Haridwar in the Uttarakhand state of India. The temple is situated atop the Neel Parvat on the Eastern summit of the Sivalik Hills, the southernmost mountain chain of the Himalayas. Chandi Devi Temple was built in 1929 by Suchat Singh in his reign as the King of Kashmir. However, the main murti of Chandi Devi at the temple is said to have been installed in the 8th century by Adi Shankaracharya, one of the greatest priests of Hindu religion.</p>
+			</div>
+            <div class="col-content">
+				<img src="district/haridwar/Har-Ki-Pauri.jpg">
+				<h5 >Har Ki Pauri</h5>
+				<p>Har Ki Pauri is a famous ghat on the banks of the Ganges in Haridwar in the Indian state of Uttarakhand. This revered place is the major landmark of the holy city of Haridwar. Literally, "Har" means "God", "Ki" means " 's " and "Pauri" means "steps". Lord Vishnu is believed to have visited the Brahmakund in Har Ki Pauri in the Vedic times.</p>
+			</div>
+		</div>
+	</section>
+    <!--Rudraprayag section--->
+	<section class="destination" id="rudraprayag" style="display:none;">
+		<div class="title">
+			<h2>Rudraprayag</h2>
+		</div>
+
+		<div class="destination-content">
+			<div class="col-content">
+				<img src="district/rudraprayag/chopta.jpg">
+				<h5 >Chopta</h5>
+				<p>Popularly referred to as the ‘mini Switzerland’ of Uttarakhand, Chopta (at an approximate altitude of 2,608 m) is a slice of paradise tucked away in the Garhwal Himalayas. Surrounded by bugyals or velvety meadows and pristine snow-capped peaks, Chopta is an all-year holiday destination: pleasant in summer, rain-fresh in monsoon and a snow-clad fairyland in winter.</p>
+			</div>
+            <div class="col-content">
+				<img src="district/rudraprayag/Gaurikund.jpeg">
+				<h5 >Gaurikund</h5>
+				<p>Gauri Kund is a Hindu pilgrimage site and base camp for trek to Kedarnath Temple, in Uttarakhand, India. It is situated at an altitude of 6502 feet above mean sea level in the Garhwal Himalayas. Anekadhangavadeswarar is revered in the 7th century Tamil Saiva canonical work, the Tevaram, written by Tamil saint poets known as the nayanars and classified as Paadal Petra Sthalam, the 275 temples reverred in the canon.</p>
+			</div>
+            <div class="col-content">
+				<img src="district/rudraprayag/guptkashi-kedarnath-lush-green-town-64353712.jpg">
+				<h5 >Guptkashi</h5>
+				<p>Guptakashi, Gupta Kashi or Guptkashi is a fairly large town located at an elevation of 1,319 metres (4,327 ft) in the Kedar-khanda ('khanda' means "sector"), in Garhwal Himalayas of Rudraprayag district in Uttrakhand, India. It is known for its ancient Vishwanath Temple dedicated to the god Shiva, which is similar to the one in Varanasi (Kashi). The other well known temple here is dedicated to Ardhanareshvara, a half man half woman form of Shiva and Parvati.</p>
+			</div>
+
+            <div class="col-content">
+				<img src="district/rudraprayag/kedarnath.jpg">
+				<h5 >Kedarnath</h5>
+				<p>Kedarnath Temple (Sanskrit: केदारनाथ मंदिर, IAST: Kēdāranātha Mandira, lit. 'temple of the God of the field') is a Hindu temple roughly 1200 years old[1] dedicated to Shiva. The temple is located on the Garhwal Himalayan range near the Mandakini river, in the state of Uttarakhand, India. Due to extreme weather conditions, the temple is open to the general public only between the months of April (Akshaya Tritiya) and November (Kartik Purnima, the autumn full moon).</p>
+			</div>
+            <div class="col-content">
+				<img src="district/rudraprayag/khirsu-1164061.jpg">
+				<h5 >Khirsu</h5>
+				<p>Khirsu is a hill station in a Pauri Garhwal district of the state of Uttarakhand, India. Khirsu is a situated at an altitude of 1760 m. with 19 KM towards north from Pauri and 160 KM from Dehradun city towards west.
+                    Khirsu is famous for its scenic background. From this hill station one can see spectacular 300 km-wide panoramic view of the Himalayas, including snow-crested Trishul, Nanda Devi, Nandakot, Chaukhamba and Panchchuli peaks.
+                    </p>
+			</div>
+            <div class="col-content">
+				<img src="district/rudraprayag/Madhyamaheshwar mandir.jpg">
+				<h5 >Madhyamaheshwar</h5>
+				<p>Madhyamaheshwar (Sanskrit: मध्यमहेश्वर) or Madmaheshwar is a Hindu temple dedicated to Shiva, located in Gaundar,  a village in the Garhwal Himalayas of Uttarakhand, India. Situated at an elevation of 3,497 m (11,473.1 ft), it is one of the Panch Kedar pilgrimage circuits, comprising five Shiva temples in the Garhwal region.</p>
+			</div>
+            <div class="col-content">
+				<img src="district/rudraprayag/tungnath.jpg">
+				<h5 >Tungnath</h5>
+				<p>(IAST:tuņgnāth) is one of the highest Shiva temples in the world and is the highest of the five Panch Kedar temples located in the Rudraprayag district, in the Indian state of Uttarakhand. The Tungnath (literal meaning: Lord of the peaks) mountains form the Mandakini and Alaknanda river valleys. It is located at an altitude of 3,690 m (12,106 ft), and just below the peak of Chandrashila.[2] It has a rich legend linked to the Pandavas, heroes of the Mahabharata epic.</p>
+			</div>
+            <div class="col-content">
+				<img src="district/rudraprayag/Ukhimath.jpg">
+				<h5 >Ukhimath</h5>
+				<p>Ukhimath (also spelled Okhimath) is a small town and a Hindu pilgrimage site in Rudraprayag district, Uttarakhand in India. It is situated at an elevation of 1,311 meters and at a distance of 41 km from Rudraprayag. During the winter, the Utsava Idols from the Kedarnath Temple, and Madhyamaheshwar Temple are brought to Ukhimath and worshipped here for six months. Ukhimath can be used as center destination for visiting different places located nearby, the Madhyamaheshwar Temple, Tungnath Temple and Deoria Tal (a natural fresh water lake) and many other picturesque places.</p>
+			</div>
+		</div>
+	</section>
+    <!--Almora section--->
+	<section class="destination" id="almora" style="display:none;">
+		<div class="title">
+			<h2>Almora</h2>
+		</div>
+
+		<div class="destination-content">
+			<div class="col-content">
+				<img src="district/almora/binsar-7414453.jpg">
+				<h5 >Binsar</h5>
+				<p>Binsar was the summer capital of the Chand Kings, who ruled over Kumaon from the 11th to 18th centuries AD. Binsar was established in 1988 for the conservation and protection of the shrinking broad leaf oak (Quercus) forests of the Central Himalayan region, and it has over 200 bird species. It sits on top of the Jhandi Dhar hills in the Himalayas, about 33 km north of Almora town in Uttarakhand. The sanctuary spreads over 45.59 km2. Its altitude varies from 900 to 2500 metres with an average height of 2412 metres.</p>
+			</div>
+            <div class="col-content">
+				<img src="district/almora/chitai-temple-inside.jpg">
+				<h5 >Chitai Temple</h5>
+				<p>Golu Devta (Kumaoni: गोलज्यू) is the God of Uttarakhand state of India and is their deity.
+                    The Chitai Golu devta temple is the most celebrated temple dedicated to the deity and is about 4 km (2.5 mi) from the main gate of Binsar wildlife sanctuary & about 10 km (6.2 mi) from Almora.
+                    </p>
+			</div>
+            <div class="col-content">
+				<img src="district/almora/dwarahat.jpg">
+				<h5 >Dwarahat</h5>
+				<p>Dwarahat is a town, near Almora town and a nagar panchayat in Almora district in the state of Uttarakhand, India. Dwarahat is located at 29.78°N 79.43°E.[1] It has an average elevation of 1,510 metres (4954.068 feet).</p>
+			</div>
+            <div class="col-content">
+				<img src="district/almora/jhula-devi-temple.jpg">
+				<h5 >Jhula Devi Temple</h5>
+				<p>One of the major tourist attractions in Ranikhet, Jhula Devi Temple is dedicated to goddess Durga and is well-known for its cluster of elegantly designed bells. Legend has it that this shrine was built in the 8th century. Located on the Kumaon Hill, amidst the tranquil and relaxing settings of nature, Jhula Devi Temple has the deity sitting on a jhula (Hindi word for cradle) and hence the name.</p>
+			</div>
+            <div class="col-content">
+				<img src="district/almora/Kasar devi mandir.jpg">
+				<h5 >Kasar Devi Mandir</h5>
+				<p>Kasar Devi is a village near Almora, Uttarakhand. It is known for the Kasar Devi temple, a Devi temple, dedicated to Kasar Devi, after whom the place is also named. The temple structure dates to the 2nd century CE. Swami Vivekananda visited Kasar Devi in 1890s, and numerous western seeker, Sunyata Baba Alfred Sorensen and Lama Anagarika Govinda.
+                    It's believed that this temple is positioned on the earth's Van Allen Belt. The region surrounding the Kasar Devi Temple has an enormous geomagnetic field, thanks to gaps in bands of radiation.
+                    </p>
+			</div>
+            <div class="col-content">
+				<img src="district/almora/Katarmal-Temple.jpg">
+				<h5 >Katarmal Temple</h5>
+				<p>Katarmal is located at a distance of 1.5 km from Kosi village and 12 km from the district centre, a and 70 km from Nainital. Located at a height of 2116 meters above sea level, it is well connected by road, 30 km away from Khairna, Garampani (Nainital, Haldwani, Coordinates: 29°29'39"N 79°28'46"E) & 33 km from Ranikhet and Kausani the nearest connecting point being near Kosi village.</p>
+			</div>
+            <div class="col-content">
+				<img src="district/almora/zero point.jpg">
+				<h5 >Zero Point</h5>
+				<p>Located in the premises of the Binsar Wildlife Sanctuary, Zero Point is the highest point in the town of Binsar which, in itself, lies at an elevation of 2412 masl. The view of the skies from Zero Point is mesmerising. While it is rare that one location is equally beautiful during sunset and sunrise, this place is especially unique. One can see a 360-degree panoramic view of the Himalayas including peaks like the Kedarnath Peak, Shivling, and Nanda Devi from Zero Point.</p>
+			</div>
+		</div>
+	</section>
+    <!--Nanital section--->
+	<section class="destination" id="nanital" style="display:none;">
+		<div class="title">
+			<h2>Nanital</h2>
+		</div>
+
+		<div class="destination-content">
+			<div class="col-content">
+				<img src="district/nanital/Ecocave gardens.jpg">
+				<h5 >Ecocave Garden</h5>
+				<p>Eco Cave Garden is a cluster of natural rocky caves which are developed into a garden. This destination is gaining popularity off-late due to its close proximity to the Nainital city also commonly known as Mall Road. The garden is maintained by Nainital Tourism and is located in the Mallital area on the Kaladungi Road. The garden offers a majestic view of 6 caves formed in the shape of animals.</p>
+			</div>
+            <div class="col-content">
+				<img src="district/nanital/jim corbett.jpg">
+				<h5 >Jim Corbett National Park</h5>
+				<p>Jim Corbett National Park is a national park in India located in the Nainital district of Uttarakhand state. The first national park in India, it was established in 1936 during the British Raj and named Hailey National Park after William Malcolm Hailey, a governor of the United Provinces in which it was then located. In 1956, nearly a decade after India's independence, it was renamed Corbett National Park after the hunter and naturalist Jim Corbett, who had played a leading role in its establishment and had died the year before. The park was the first to come under the Project Tiger initiative.</p>
+			</div>
+            <div class="col-content">
+				<img src="district/nanital/kilbury.webp">
+				<h5 >Kilbury Bird Santuary</h5>
+				<p>Kilbury is slightly away from Nainital. At an altitude of 2194 mts. and 12 Kms. from the town this place is accessible by a motor able road. Located amidst green forests this tranquil place provided a break from the city. Kilbury also gives a breathtaking view of Himalaya. There is a forest rest house for night stay. Kilbury is an ideal spot for a quiet and peaceful holiday.</p>
+			</div>
+            <div class="col-content">
+				<img src="district/nanital/mall road.jpg">
+				<h5 >Mall Road</h5>
+				<p>The Mall Road in Nainital is synonymous to the city itself. It is one of the most popular tourist destinations in the Nainital city and most visited one too. Running parallel to the Naini Lake, the Mall Road is 1.5 km long and connects the two ends of Nainital town, Mallital and Tallital. It serves as the prime location for culture, food and shopping for the visitors coming from different ends of the world.</p>
+			</div>
+            <div class="col-content">
+				<img src="district/nanital/Naina devi temple.jpg">
+				<h5 >Naina Devi Temple</h5>
+				<p>The Naina Devi temple gets its name from the mythological legend that Goddess Sati’s eyes (Nayan) fell at this place when Lord Vishnu cuts her body into 51 different parts. In fact, the whole town (Nainital), the lake (Naini Lake) and the Naini temple, all three of them are named after the legend.</p>
+			</div>
+            <div class="col-content">
+				<img src="district/nanital/nanital lake.jpg">
+				<h5 >Nanital Lake</h5>
+				<p>Nainital Lake, also known as Naini Lake, is a natural freshwater body, situated amidst the town of Nainital in Kumaon, Uttarakhand, India. It is tectonic in origin and is kidney shaped or crescent shaped and has an outfall at the southeastern end.[1][2] Nainital, along with other lakes of Kumaon, is integral to tourism and recreation in Kumaon. The lake is also an integral part of Kumaoni folklore.</p>
+			</div>
+            <div class="col-content">
+				<img src="district/nanital/nanital zoo.jpg">
+				<h5 >Nanital Zoo</h5>
+				<p>The Nainital Zoo is a high- altitude zoo located on the Sher Ka Danda hill at a height of 2,100m or 6900 ft above sea level. The zoo is spread over a green area of 4.6 hectares or 11 acres. It was established in 1984 and was opened to visitors in the year 1995. The zoo was officially named as Pt. Govind Ballabh Pant High Altitude Zoo in 2002.</p>
+			</div>
+            <div class="col-content">
+				<img src="district/nanital/Tiffin-Top.jpg">
+				<h5 >Tiffin Top</h5>
+				<p>A romantic Gem in the crown on Nainital city is the Tiffin Top, also known as Dorothy's Seat. This famous attraction is a hilltop which offers the most splendid 360-degree view of Nainital city and surrounding Kumaon mountains.
+                    Located 2290 m above sea level, this hilltop is a photographer's heaven and a perfect spot for a family picnic.
+                    </p>
+			</div>
+		</div>
+	</section>
+    <!--Pithoragarh section--->
+	<section class="destination" id="pithoragarh" style="display:none;">
+		<div class="title">
+			<h2>Pithoragarh</h2>
+		</div>
+
+		<div class="destination-content">
+			<div class="col-content">
+				<img src="district/pithoragarh/Askot sanctuary.jpg">
+				<h5 >Askot Santuary</h5>
+				<p>Askot Musk Deer Sanctuary is located 54 km (34 mi) from Pithoragarh near Askot in Uttarakhand state of India. This sanctuary has been set up primarily with the object of conserving the musk deer (Moschus leucogaster) and its habitat. Intensive efforts have been initiated to conserve this rare species. Other mammals found in this sanctuary include the Bengal tiger,[1] Indian leopard, Himalayan jungle cat, civet, barking deer, serow, goral and Himalayan brown bear.</p>
+			</div>
+            <div class="col-content">
+				<img src="district/pithoragarh/Chandak.jpg">
+				<h5 >Chandak Hills</h5>
+				<p>Chandak refers to a hill that is famous for housing a temple dedicated to the Hindu deity ‘Manu’ and is situated at a distance of 8 kilometers from Pithoragarh. The location is one of the best spots for hang gliding and the magnetite mining factory is also located near the valley.</p>
+			</div>
+            <div class="col-content">
+				<img src="district/pithoragarh/Kafni glacier trek.jpg">
+				<h5 >Kafni Glacier Trek</h5>
+				<p>The Kafni Glacier is an exhilarating trekking trail in the Kumaon region in Uttarakhand. The glacier is the source of the River Kafni that forms the tributary of the Pindar river which joins the River Ganga on its route. The Kafni Glacier trek is along a boulder-strewn path with a dense forest surrounding the mountains and expansive meadows. </p>
+			</div>
+            <div class="col-content">
+				<img src="district/pithoragarh/Kamakhya devi mandir.jpg">
+				<h5 >Kamakhya Devi Mandir</h5>
+				<p>If you have ever been to Pithoragarh, then you must be aware of the temple of Kamakhya Devi. There is a grand Maa Kamakhya temple on the hill just above the military cantonment located on Pithoragarh Jhulaghat road. This temple, built just above the military cantonment area, is built in the hill of Kusauli village.
+                    The distance of this temple from Pithoragarh headquarters is 6 km. This temple was established in 1972 with the efforts of Madan Mohan Sharma. In 1972, Madan Mohan Sharma brought a six-headed idol from Jaipur and established it here.
+                    </p>
+			</div>
+            <div class="col-content">
+				<img src="district/pithoragarh/Kapilaswar Cave.jpg">
+				<h5 >Kapilaswar Cave</h5>
+				<p>The beautiful Kapileshwar Mahadev temple believed to be thousands of years old built by the Katyuri dynasty (origin dated around first century BCE) holds immense historical significance. This temple of Lord Shiva is built on the confluence of Shakuni and Fadka rivers with Shakuni emerging from Chaykhaan and Fadka from Motiyaapaathar.</p>
+			</div>
+            <div class="col-content">
+				<img src="district/pithoragarh/Munsiyari.jpg">
+				<h5 >Munsiyari</h5>
+				<p>Munsiyari (Kumaoni: Munsyār) is the name of the sub-division headquarters, a conglomeration of revenue villages and it also refers to the entire region as Munsiyari Tehsil and Sub Division in the Pithoragarh District in the hill-state of Uttarakhand, India.
+                    It is a hill station and lies at the base of the great Himalayan mountain range, at an elevation of about 2,200 m (7,200 ft)[1] and is a starting point of various treks into the interior of the range.
+                    </p>
+			</div>
+            <div class="col-content">
+				<img src="district/pithoragarh/Pithoragarh fort.jpg">
+				<h5 >Pithoragarh Fort</h5>
+				<p>Pithoragarh Fort (Hindi: पिथौरागढ़ किला) is a fort in Pithoragarh in the Indian state of Uttarakhand. It was built during Chand period by regional ruler Peeru Alias Prithwi Gusain. According to some records, this fort was constructed by the Gorkhas in the year 1789, after invading the town. The Pithoragarh Fort is situated on a hill on the outskirts of the town of Pithoragarh. At present, the fort is in dilapidated condition.</p>
+			</div>
+            <div class="col-content">
+				<img src="district/pithoragarh/Thal kedar.jpg">
+				<h5 >Thal Kedar</h5>
+				<p>A holy place dedicated to Lord Shiva is also known for its mesmerizing beauty and spell binding surroundings. Located 15 km from the town, this temple can only be reached by trekking either from Pithoragarh or from Nakuleshwar Temple.
+                    Thal Kedar is situated at an altitude of 2000 m and attracts large number of devotees during Shivratri.
+                    </p>
+			</div>
+		</div>
+	</section>
+    <!--Champawat section--->
+	<section class="destination" id="champawat" style="display:none;">
+		<div class="title">
+			<h2>Champawat</h2>
+		</div>
+
+		<div class="destination-content">
+			<div class="col-content">
+				<img src="district/champawat/Baleshwar Temple.jpg">
+				<h5 >Baleshwar Temple</h5>
+				<p>Baleshwar Temple is an ancient temple dedicated to Shiva, situated within city of Champawat in Uttarakhand, India.
+                    Built by the rulers of the Chand dynasty, Baleshwar Temple is a marvelous symbol of stone carving. It is believed to have been built in 13th century AD (1390 AD) by Garud Gyan Chand.
+                    </p>
+			</div>
+            <div class="col-content">
+				<img src="district/champawat/Kranteshwar Mahadev Temple.jpg">
+				<h5 >Kranteshwar Mahadev</h5>
+				<p>If you are fond of straying away from the usual mainstream tourist spots, you will choose Champawat. And if you're even more into the rustic exploration of the land where religion and spirituality culminate and originate for the rest of the country, you will visit Kranteshwar Mahadev.
+                    At a distance of about 6 kms from the district centre of Champawat, the temple is a small complex of stone made structures, and is locally known as the Kandev or Kurmapad. It is atop a hill at a height of 6000 meters.
+                    </p>
+			</div>
+            <div class="col-content">
+				<img src="district/champawat/Lohaghat.jpg">
+				<h5 >Lohaghat</h5>
+				<p>Lohaghat (Kumaoni: Loghāt) is a town and a nagar palika in Champawat district in the Indian state of Uttarakhand. Lohaghat and its surrounding region was earlier known as Sui, and the town has been a place of prominence since the rule of Katyuri kings. A scion of the Katyuri dynasty had established his principality at Sui in the eighth century.</p>
+			</div>
+            <div class="col-content">
+				<img src="district/champawat/Nagnath.jpg">
+				<h5 >Nagnath Temple</h5>
+				<p>Nagnath Temple is one of the oldest temples in Champawat district which is dedicated to Lord Shiva. The word "Nagnath" in Nagnath temple is made up of two words "Nag" and "Nath" , in which 'Nag' in English means "Snake" and 'Nath' is referred to as "Lord Shiva" , One who had a fondness for snakes and wore it around his neck like a priceless jewel.</p>
+			</div>
+            <div class="col-content">
+				<img src="district/champawat/naula.jpg">
+				<h5 >Naula</h5>
+				<p>Naulas are emblematic of the region’s rich culture. The four-sided roof resembles a temple, and many naulas house idols, carvings, and sculptures of gods and goddesses as well as lamps to guide thirsty souls at night. Families who don’t have a shrine at home often visit a naula, say their prayers, light a lamp and leave behind their offerings.</p>
+			</div>
+            <div class="col-content">
+				<img src="district/champawat/Vanasur Ka Kila.jpeg">
+				<h5 >Vanasur Ka Kila</h5>
+				<p>Banasura Fort is a famous tourist destination located in Uttarakhand. This fort is situated at a distance of about 7 km from Lohaghat near a place called 'Karnrayat' . From Karnarayat to Banasur Fort can be reached after walking a distance of about 1.5 kilometers and this fort is situated at an altitude of 1859 meters above sea level. It is at this place that Banasura was killed by Lord Krishna because Banasura had kidnapped the grandson of Shri Krishna.</p>
+			</div>
+		</div>
+	</section>
+    <!--Tehri section--->
+	<section class="destination" id="tehri" style="display:none;">
+		<div class="title">
+			<h2>Tehri</h2>
+		</div>
+
+		<div class="destination-content">
+			<div class="col-content">
+				<img src="district/tehri/tehri-dam-4914673.jpg">
+				<h5 >Tehri Dam</h5>
+				<p>With a height of 260.5 m (855 ft) Tehri Dam is the tallest dam in India[1] and 12th tallest dam in the world. With a total planned installed capacity of 2400 MW, it's the biggest Hydroelectric power plant in India.[2] It is a multi-purpose rock and earth-fill embankment dam on the Bhagirathi River in New Tehri, Tehri Garhwal district in Uttarakhand, India.</p>
+			</div>
+            <div class="col-content">
+				<img src="district/tehri/chandrabadni.jpg">
+				<h5 >Chandrabadni</h5>
+				<p>Chandrabadani is a mountain (2,277m above sea-level). On the border of Devaprayag tehsil and Pratapnagar tehsil is the well known temple of Chandrabadni Devi, lying at the top of the mountain about 10 km. north of Kandi Khal ( a place on the Devaprayag-Kirti Nagar metalled road).</p>
+			</div>
+            <div class="col-content">
+				<img src="district/tehri/dhanulti.jpg">
+				<h5 >Dhanaulti</h5>
+				<p>Dhanaulti is a quiet hill station at an elevation of 2286 meters above sea level, it offers panoramic views of the lofty Himalayas.
+                    Situated in the foothills of the Garhwal Himalayan range located 115 km (71 mi) from New Tehri, the district headquarter, 60 km from the hill station of Mussoorie. Dhanaulti is a tehsil in Tehri Garhwal district, Uttarakhand, India. Dhanaulti is located on the important tourist circuit of Landour,Mussoorie,Kanatal,Chamba and New Tehri. The town is densely enveloped by the velvety rhododendrons, deodar, and tall oak forests. Heavy snowfall during winters, attracts many tourists here.
+                    </p>
+			</div>
+            <div class="col-content">
+				<img src="district/tehri/kunjapuri.jpg">
+				<h5 >Kunjapuri</h5>
+				<p>Kunjapuri temple is one of the best visit places of Tehri Gharwal locale not due to its story identified with divine beings and goddesses additionally for the all encompassing perspective of Garhwal Himalayan pinnacles like Swarga Rohini, Gangotri, Banderpunch and Chaukhamba toward the north and Rishikesh, Haridwar and DoonValley toward the south it gives to the guests. The sanctuary Kunjapuri is arranged on the highest point of the slope Kunjapuri 1,676m. high, 7 km far from Narendra Nagar, around 15 km from Rishikesh and 93 km from Devaprayag favoring the bystanders.</p>
+			</div>
+            <div class="col-content">
+				<img src="district/tehri/neelkant.jpg">
+				<h5 >Neelkant</h5>
+				<p>Neelkanth Mahadev Temple is a Hindu temple dedicated to Nilkanth, an aspect of Lord Shiva. The temple is about 32 km from Rishikesh in the Pauri Garhwal district of Uttarakhand, India. The temple architecture is very much influenced by the Dravidian style of temple architecture.
+                    The temple is dedicated to Lord Shiva and is a popular Hindu pilgrimage site. It is surrounded by dense forests and is adjacent to the mountain ranges of Nar-Narayan. It is enveloped between the valleys of Manikoot, Brahmakoot, and Vishnukoot and is located at the confluence of the rivers Pankaja and Madhumati.
+                    </p>
+			</div>
+
+		</div>
+	</section>
+    <!--Pauri section--->
+	<section class="destination" id="pauri" style="display:none;">
+		<div class="title">
+			<h2>Pauri</h2>
+		</div>
+
+		<div class="destination-content">
+			<div class="col-content">
+				<img src="district/pauri/dhari-devi-temple-895254.jpg">
+				<h5 >Dhari Devi Temple</h5>
+				<p>Dhari Devi a Hindu temple located on the banks of the Alaknanda River between Srinagar and Rudraprayag in the Garhwal Region of Uttarakhand, India. The temple is home to the upper half of the idol of the goddess Dhari, while the lower half of the idol is located in Kalimath, where she is worshipped as a manifestation of the Goddess Kali.
+                    She is considered to be the guardian deity of Uttarakhand and is revered as the protector of the Char Dham’s.[1][2] Her shrine is one of 108 Shakti Sthals in India, as numbered by Srimad Devi Bhagwat.
+                    </p>
+			</div>
+            <div class="col-content">
+				<img src="district/pauri/danda-nagraja-temple-8068032.jpg">
+				<h5 >Danda Nagraja Temple</h5>
+				<p>The Danda Nagraja Temple is dedicated to Lord Shree Krishna in the form of snake and is located in Pauri Garhwal of Uttarakhand. The exact location of temple is In the Garhwal range of the Shivaliks, in the cradle of the Himalayas, lays the city of Pauri which is the gateway to the sacred Temple of Lord Krishna in his snake avatar. This temple is very popular to the devotees of Vaishnavism sect of Hinduism and is called Danda Nagraja Temple.</p>
+			</div>
+            <div class="col-content">
+				<img src="district/pauri/lansdowne.jpg">
+				<h5 >Lansdowne</h5>
+				<p>Originally known as Kaludanda (Garhwali: काळूडाण्डा) after Kalu (Black) and Danda (hills) in Garhwali, Lansdowne was founded and named after then Viceroy of India (1888-1894), Lord Lansdowne in 1887, and by 1901 it had a population of 3943.[1][2]Lansdowne was developed by the British for catering for the Recruits Training center of the Garhwal Rifles.</p>
+			</div>
+            <div class="col-content">
+				<img src="district/pauri/sidhbali.jpg">
+				<h5 >Sidhbali Temple</h5>
+				<p>Sidhbali Dham is an ancient Sidhpeetha temple, dedicated to Lord Hanuman and located in Kotdwar in Pauri Garhwal of Uttarakhand. The temple is en-route to the popular hill station Lansdowne. The centre point of the Shree Sidhbali Temple, with a beautiful Lord Hanuman Idol standing tall on a cliff, amidst the extraordinary view of Garhwal Himalaya's.</p>
+			</div>
+		</div>
+	</section>
+    <!--Uttarkashi section--->
+	<section class="destination" id="uttarkashi" style="display:none;">
+		<div class="title">
+			<h2>Uttarkashi</h2>
+		</div>
+
+		<div class="destination-content">
+			<div class="col-content">
+				<img src="district/uttarkashi/Dayara_Bugyal.jpg">
+				<h5 >Dayara Bugyal</h5>
+				<p>Dayara Bugyal Trek is a spectacular and beautiful Bugyal. Dayara Bugyal Trek lies in the Uttarkashi district of Uttarakhand, India and the maximum altitude of this Bugyal. 11,181 ft. It starts from a small village of Barsu.  Amazing mountain views Thrilling hikes, and some of Uttarakhand finest alpine meadows. Magnificent forest area, beautiful campsites, ancient villages, high points.</p>
+			</div>
+            <div class="col-content">
+				<img src="district/uttarkashi/gangorti.jpg">
+				<h5 >Gangotri</h5>
+				<p>Gangotri is a town and a Nagar Panchayat (municipality) in Uttarkashi district in the state of Uttarakhand, India. It is 99 km from Uttarkashi, the main district headquarter. It is a Hindu pilgrim town on the banks of the river Bhagirathi – the origin of the river Ganges. The town is located on the Greater Himalayan Range, at a height of 3,100 metres (10,200 ft). According to popular Hindu legend, Goddess Ganga descended here when Lord Shiva released the mighty river from the locks of his hair.</p>
+			</div>
+            <div class="col-content">
+				<img src="district/uttarkashi/gaumukh.jpg">
+				<h5 >Gaumukh</h5>
+				<p>Gaumukh is a place that is located in the state of Uttarakhand in the Uttarkashi district and the place is the location where the Gangotri Glacier ends. The place is situated at a height of 13,200 ft. It is one of the largest in the Himalayas with an estimated volume of over 27 cubic kilometers.</p>
+			</div>
+            <div class="col-content">
+				<img src="district/uttarkashi/nachiketa-tal-1.jpg">
+				<h5 >Nachiketa Lake</h5>
+				<p>Lying amid dense forests of Oaks and Pines, Nachiketa Tal Trek is a lake on Bhagirathi River’s bank in Uttarkashi district of Uttarakhand at an elevation of 2457 m.
+                    There is a number of fable treks and temples which are tourists’ attraction. This lake is beautiful under the forest.</p>
+			</div>
+            <div class="col-content">
+				<img src="district/uttarkashi/Yamunotri.jpg">
+				<h5 >Yamunotri</h5>
+				<p>Yamunotri Temple is situated in the western region of Garhwal Himalayas at an altitude of 3,291 metres (10,797 ft) in Uttarkashi district, Uttarakhand. It's Just 129 km from Uttarkashi, the main district headquarter. The temple is dedicated to Goddess Yamuna and has a black marble idol of the goddess. The Yamunotri temple is a full day's journey from Uttarakhand's main towns — Uttarkashi, Rishikesh, Haridwar or Dehradun. The actual temple is only accessible by a 13 kilometres (8.1 mi) trek from the town of Hanuman Chatti and a 6 kilometres (3.7 mi) walk from Janki Chatti; horses or palanquins are available for rent.</p>
+			</div>
+		</div>
+	</section>
+    <!--Udham singh Nagar section--->
+	<section class="destination" id="udhamsinghnagar" style="display:none;">
+		<div class="title">
+			<h2>Udham Singh Nagar</h2>
+		</div>
+
+		<div class="destination-content">
+			<div class="col-content">
+				<img src="district/udhamsingh nagar/Atariya Temple.jpg">
+				<h5 >Atariya Temple</h5>
+				<p>This is Atariya temple located at 2 Km distance from Rudarpur Bus Station. Paanch Mandir is situated in centre of Rudrapur City. Atariya Temple is an old temple with mythological significance, which is locally preached.[24] The temple encompasses a sacred shrine dedicated to the deity goddess Atariya. The temple is known for its 10-day fair held during sacred Navratras week during which the pilgrims visit the shrine in thousands. Atariya Temple is located at a distance of 2 km from the Rudrapur bus stand.</p>
+			</div>
+            <div class="col-content">
+				<img src="district/udhamsingh nagar/Giri Sarovar.jpg">
+				<h5 >Giri Sarovar</h5>
+				<p>Giri Sarovar Lake is situated 2 km from Kashipur, Udham Singh Nagar District. It is on the Kashipur- Ramnagar route. This enchanting lake is an ideal picnic spot. Nearby attractions are Kashipur Chaiti Temple, Atariya Temple and Nanak Matta Dam.Giri Sarovar is situated in the entryway of Kumaon slopes, Udham Singh Nagar. Attributable to the lake and quiet air, this spot has risen as a perfect picnic spot.</p>
+			</div>
+            <div class="col-content">
+				<img src="district/udhamsingh nagar/Moteshwar Mahadeva Temple.jpg">
+				<h5 >Moteshwar Mahadeva</h5>
+				<p>Shree Moteshwar Mahadev, also known as Shree Bheem Shankar Mahadev, is an abode of Lord Shiva in Kashipur of Uttarakhand state, India. This place was known as the Dakini State in ancient days.[1]
+                    Kashipur (Govishn) is a historic place in Udham Singh Nagar district. Around 1 km away is a place known as Ujjanak. This is where Lord Shiva is situated in his full face as a Jyotirlingam known as Bheem Shankar. This is the Bheem Shankar Jyotirlingam.
+                    </p>
+			</div>
+            <div class="col-content">
+				<img src="district/udhamsingh nagar/Nanakmatta-compressed.jpg">
+				<h5 >Nanakmatta Sarovar</h5>
+				<p>Nanakmatta is a historical town named after the Sikh pilgrimage site, Gurdwara Nanak Mata Sahib, in the state of Uttarakhand in India. Sikh tradition records that the site was once called Gorakhmata, a centre of Siddh-jogis named after the founder of their order, Gorakhnath, at the distance of 30 miles from Reetha sahib. In the Siddh-Gost in Guru Granth Sahib, the story of Guru Nanak on his first udasi is told, wherein he had a long discourse with siddhas on matters of religion and metaphysics.</p>
+			</div>
+            <div class="col-content">
+				<img src="district/udhamsingh nagar/Purnagiri Temple.jpg">
+				<h5 >Purnagiri Temple</h5>
+				<p>Purnagiri Temple is situated on the top of the Poornagiri hill in the town of Tanakpur of Champawat district of Uttarakhand state in India. It dedicated to Hindu goddess Maa Parvati. Perched at a height of 3000 m above sea level, the temple is 20 kilometers away from Tanakpur. The Poornagiri Mandir has its own importance and devotees from every corner of the state come to visit the temple.</p>
+			</div>
+		</div>
+	</section>
+    <!--Bageshwar section--->
+	<section class="destination" id="bageshwar" style="display:none;">
+		<div class="title">
+			<h2>Bageshwar</h2>
+		</div>
+
+		<div class="destination-content">
+			<div class="col-content">
+				<img src="district/bageshwar/Bagnath temple.jpg">
+				<h5 >Bagnath Temple</h5>
+				<p>Bagnath Temple (Kumaoni: बागनाथ थान) is an ancient shrine dedicated to Shiva, situated in the Bageshwar city at the confluence of Sarayu and Gomati rivers.[1][2] Bagnath Temple is festooned with bells of all sizes and features impressive carvings.[3] It is the most famous Temple in Bageshwar District.[4] It is flooded with devotees on the occasion of Shivratri.[5] The city of Bageshwar gets its name from this Temple.</p>
+			</div>
+            <div class="col-content">
+				<img src="district/bageshwar/Baijnath temple.png">
+				<h5 >Baijnath Temple</h5>
+				<p>Baijnath is a small town on the banks of the Gomati river in the Bageshwar district in Kumaon division of Uttarakhand, India. The place is most noted for its ancient temples, which have been recognized as Monuments of National Importance by the Archaeological Survey of India in Uttarakhand. Baijnath has been selected as one of the four places to be connected by the 'Shiva Heritage Circuit' in Kumaon, under the Swadesh Darshan Scheme of the Government of India.</p>
+			</div>
+            <div class="col-content">
+				<img src="district/bageshwar/Chandrika temple.jpg">
+				<h5 >Chandrika Temple</h5>
+				<p>Chandrika devi temple is a very beautiful temple with the statues and sculptures of Mata Durga and goddess Chandrika in it. This temple is situated in the district of Bageshwar in Uttarakhand. It is one of the most popular temples in this area. Chandrika devi temple is just 2 km away from the city of Bageshwar.</p>
+			</div>
+            <div class="col-content">
+				<img src="district/bageshwar/Gauri Udiyar.jpg">
+				<h5 >Gauri Udiyar</h5>
+				<p>The holy town of Bageshwar situated at the confluence of Sarayu, Gomti and Bhagirathi rivers is revered by all and deemed as the land of Lord Sadashiva. This sacrosanct place is said to liberate one from the bondage of birth and death and is venerated in the Puranas. Bageshwar is nestled amidst the Bhileshwar and Nileshwar mountains on its east and west side respectively, Suraj Kund on the north and Agni Kund on the south.</p>
+			</div>
+            <div class="col-content">
+				<img src="district/bageshwar/kainchi-dham.jpg">
+				<h5 >Kainchi Dham</h5>
+				<p>On the Nainital – Almora Road , 9 Km from Bhowali and 17 Kms from Nainital is a modern pilgrim centre. This place has achieved recognition owing to the ashram of the famous Neem Karoli Maharaj. Kaichi is a term used for two sharp hairpin bends of the motor road in local dialect hence the name. It has no relation with scissors.</p>
+			</div>
+            <div class="col-content">
+				<img src="district/bageshwar/Pandusthal trek.jpg">
+				<h5 >Pandusthal Temple</h5>
+				<p>Pandusthal is thought to be the site of the war between the Kauravas and the Pandavas. This area, which gives one of the most stunning vistas of the Himalayas, can only be reached after a 20-kilometer journey.
+                    The Pandusthal’s view is so spectacular that you can even see the dangling glaciers near the peaks. To begin the trip, take a bus or a car from Bageshwar to Baisani (25 km). The walk begins at Baisani and lasts approximately 15 kilometers, which may be completed in one day. One can even stay overnight and explore the area before returning the next day.
+                    </p>
+			</div>
+            <div class="col-content">
+				<img src="district/bageshwar/PINDARI-GLACIER.jpg">
+				<h5 >Pindari Glacier</h5>
+				<p>The glacier is about 9 kilometers long [1] and gives rise to the Pindar River which meets the Alakananda at Karnaprayag in the Garhwal district.
+
+                    The trail to reach the glacier crosses the villages of Saung, Loharkhet, crosses over the Dhakuri Pass, continues onto Khati village (the last inhabited village on the trail), Dwali, Phurkia and finally Zero Point, Pindar, the end of the trail. Though most of the trail is along the banks of the Pindari River, the river is mostly hidden until after Khati.</p>
+			</div>
+            <div class="col-content">
+				<img src="district/bageshwar/Sundar-dhunga-Valley-trek.jpg">
+				<h5 >Sundar Dhunga Valley</h5>
+				<p>Sunderdhunga trek is a neighbour of the more famous Pindari and Kafni glacier treks. This is considered to be the most beautiful trek of the three.
+                    Sunderdhunga trek follows river Sunderdhunga upstream from Khati village until its origin. The trail makes its way through thick forests which are home to many animals. It goes through remote, almost bordering exotic, villages, glaciers and pristine alpine meadows.
+                    </p>
+			</div>
+		</div>
+	</section>
+    <!--Chamoli section--->
+	<section class="destination" id="chamoli" style="display:none;">
+		<div class="title">
+			<h2>Chamoli</h2>
+		</div>
+
+		<div class="destination-content">
+			<div class="col-content">
+				<img src="district/chamoli/badrinath.jpg">
+				<h5 >Badrinath Dham</h5>
+				<p>Badrinath or Badrinarayana Temple is a Hindu temple dedicated to Vishnu. It is situated in the town of Badrinath in Uttarakhand, India. The temple is also one of the 108 Divya Desams dedicated to Vishnu - holy shrines for Vaishnavas - who is worshipped as Badrinath. It is open for six months every year (between the end of April and the beginning of November), because of extreme weather conditions in the Himalayan region. The temple is located in Garhwal hill tracks in Chamoli district along the banks of Alaknanda River.</p>
+			</div>
+            <div class="col-content">
+				<img src="district/chamoli/shri-hemkunt-sahib.jpg">
+				<h5 >Hemkunt Sahib</h5>
+				<p>Hemkund Sahib (also spelled Hemkunt), formally known as Gurudwara Shri Hemkund Sahib Ji, is a Sikh place of worship and pilgrimage site in Chamoli district, Uttarakhand, India. It is devoted to Guru Gobind Singh (1666–1708), the tenth Sikh Guru, and finds mention in Dasam Granth. With its setting of a glacial lake surrounded by seven mountain peaks, each adorned by a Nishan Sahib on its cliff, it is according to the Survey of India located in the Garhwal Himalaya at an elevation of 4,160 meters (13,650 feet).</p>
+			</div>
+            <div class="col-content">
+				<img src="district/chamoli/mana.jpg">
+				<h5 >Mana</h5>
+				<p>Mana is a village in the district of Chamoli in the Indian state of Uttarakhand, located at an altitude of 3,200 meters.[1] It is located on the northern terminus of National Highway 7 (new numbering system),[2] Mana is the last village before the Mana Pass and is 26 kilometres from the border of India and Tibet The village is at a distance of about 3 km from the Hindu Pilgrimage Badrinath and the two places are culturally connected with each other.</p>
+			</div>
+            <div class="col-content">
+				<img src="district/chamoli/Auli14.jpg">
+				<h5 >Auli</h5>
+				<p>Auli is a hill station located in the Garhwal region of Uttarakhand state in India. It has rightly derived its name Auli - meaning meadows, from the characteristics of its topography. The hill station is located on slopes and has far stretching meadows that look stunning to the eyes. Auli is fondly referred to as a place where nature comes alive in all its glory and splendour. It is rich in natural resources and offers a stunning landscape of the surrounding hills.</p>
+			</div>
+            <div class="col-content">
+				<img src="district/chamoli/valley of flowers.jpg">
+				<h5 >Valley of Flowers</h5>
+				<p>Valley of Flowers National Park is an Indian national park which was established in 1982. It is located in Chamoli in the state of Uttarakhand and is known for its meadows of endemic alpine flowers and the variety of flora. This richly diverse area is also home to rare and endangered animals, including the Asiatic black bear, snow leopard, musk deer, brown bear, red fox.</p>
+			</div>
+            <div class="col-content">
+				<img src="district/chamoli/Yogadhyan badri.jpg">
+				<h5 >Yogadhyan</h5>
+				<p>Yogadhyan Badri, also called Yoga Badri, is located in Pandukeshwar (30 ° 38′2 ″ N 79 ° 32′51 ″ E) at an elevation of 1829 meters (6001 feet), near Govind Ghat and is as old as the main Badrinath Temple. Pandukeshwar is located on the route from Govind Ghat to Hanuman Chatti, 9 kilometers (5.6 miles) away from Hanuman Chatti. Legend has it that King Pandu, father of the five Pandavas, heroes of the Hindu epic Mahabharata.</p>
+			</div>
+		</div>
+	</section>
+    
+    <!--Adventure section--->
+	<section class="package" id="adventure">
+		<div class="title">
+			<h2>Adventures</h2>
+			<p>Thrilling adventures awaits</p>
+		</div>
+
+		<div class="package-content">
+			<div class="box">
+				<div class="thum">
+					<img src="adventures/cliff-jumping-point-rishikesh-tourism-entry-fee-timings-holidays-reviews-header.jpg">
+				</div>
+
+				<div class="dest-content">
+					<div class="location">
+						<h4>Cliff Jumping</h4>
+					</div>
+				</div>
+			</div>
+
+			<div class="box">
+				<div class="thum">
+					<img src="adventures/giant swing.jpg">
+					
+				</div>
+
+				<div class="dest-content">
+					<div class="location">
+						<h4>Giant Swing</h4>
+						
+					</div>
+					
+				</div>
+			</div>
+
+			<div class="box">
+				<div class="thum">
+					<img src="adventures/Nainital-Lake.jpg">
+					
+				</div>
+
+				<div class="dest-content">
+					<div class="location">
+						<h4>Boating</h4>						
+					</div>
+					
+				</div>
+			</div>
+
+			<div class="box">
+				<div class="thum">
+					<img src="adventures/paragliding.jpg">
+					
+				</div>
+
+				<div class="dest-content">
+					<div class="location">
+						<h4>Paragliding</h4>						
+					</div>
+					
+				</div>
+			</div>
+
+			<div class="box">
+				<div class="thum">
+					<img src="adventures/rishikesh rafting.jpg">
+					
+				</div>
+
+				<div class="dest-content">
+					<div class="location">
+						<h4>Rafting</h4>						
+					</div>
+					
+				</div>
+			</div>
+
+			<div class="box">
+				<div class="thum">
+					<img src="adventures/cabel-car-ride.jpg">
+					
+				</div>
+
+				<div class="dest-content">
+					<div class="location">
+						<h4>Cable Car Ride</h4>						
+					</div>
+					
+				</div>
+			</div>
+
+			<div class="box">
+				<div class="thum">
+					<img src="adventures/skiing2.jpg">
+					
+				</div>
+
+				<div class="dest-content">
+					<div class="location">
+						<h4>Skiing</h4>						
+					</div>
+					
+				</div>
+			</div>
+
+			<div class="box">
+				<div class="thum">
+					<img src="adventures/trekking.jpg">
+					
+				</div>
+
+				<div class="dest-content">
+					<div class="location">
+						<h4>Trekking</h4>						
+					</div>
+					
+				</div>
+			</div>
+
+		</div>
+	</section>
+	
+    <!--Add story section--->
+	<section class="destination" id="story">
+		<div class="title">
+			<h2>Add Your Experience</h2>
+		</div>
+
+		<div class="destination-content">
+            <div class="exp" align="center">
+                <form action="/upload" method="POST">
+                    <input id="dis" name="dis" type="text" placeholder="Enter the District of the place." required>
+                    <br>
+                    <input id="name" name="name" type="text" placeholder="Enter the Name of the place." required>
+                    <br>
+                    <input id="des" name="des" type="text" placeholder="Enter the Description of the place." required>
+                    <br>
+                    <input id="submit" type="submit" value="Submit">  
+                </form>
+            </div>
+        </div>
+		</div>
+	</section>
+
+	<!--Newsletter--->
+	<section class="newsletter">
+		<div class="news-text">
+			<h2>Newsletter</h2>
+			<p>Subscribe For more Updates....</p>
+		</div>
+
+		<div class="send">
+			<form action="newsletter" method="POST">
+				<input id="email" name="email" type="email" placeholder="Write Your Email" required>
+				<input type="submit" value="Submit">
+			</form>
+		</div>
+	</section>
+
+	<!--footer--->
+	<section id="contact">
+		<div class="footer">
+			<div class="main">
+				<div class="list">
+					<h4>Quick Links</h4>
+					<ul>
+						<li><a href="#home">Home</a></li>
+						<li><a href="#tourism">Tourism</a></li>
+						<li><a href="#adventure">Adventure</a></li>
+						<li><a href="#story">Story</a></li>
+						<li><a href="https://rzp.io/l/5p36jvJvpd">Donate</a></li>
+					</ul>
+				</div>
+
+				<div class="list">
+					<h4>Contact Info</h4>
+					<ul>
+						<li><a>Graphic Era Hill University</a></li>
+						<li><a>Dehradun, Uttarakhand.</a></li>
+						<li><a>+91 8979-XXX-XXXX</a></li>
+						<li><a>presence.elitebarbs@gmail.com</a></li>
+					</ul>
+				</div>
+
+				<div class="list">
+					<h4>Connect</h4>
+					<div class="social">
+						<a href="https://www.instagram.com/vipul_chauhan89/?next=%2F"><i class='bx bxl-instagram-alt' ></i></a>
+						<a href="https://www.linkedin.com/in/vipul-chauhan-19352b1b6/"><i class='bx bxl-linkedin' ></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="end-text">
+			<p>Copyright ©2022 All rights reserved <br> Made with by Elite Barbs</p>
+		</div>
+	</section>
+
+	<!--link to js--->
+	<script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/district.js"></script>
+</body>
+</html>
